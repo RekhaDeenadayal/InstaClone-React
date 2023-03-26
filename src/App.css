@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+.user-container{
+  width:300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow:  1px 1px 2px  rgba(0, 0, 0, 0.2)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#instaClone{
+  width:60%;
+  margin: 0 auto;
+  border: 1px solid rgb(220, 217, 217);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+span,p,h5{
+  margin-bottom:2px;
+  margin-top: 1px;
+  font-size:12px;
+  font-style:normal;
+  margin-left:10px;
+}
+.right{
+  float: right;
+  margin-right:10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.text{
+  color: rgb(114, 114, 114);
+}
+
+.left{
+  margin-left:8px;
+}
+
+.bold{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.bold:nth-last-child(1){
+  margin-top: 10px;
+}
+
+.bg{
+  margin-top: 5px;
+  margin-left:80px;
+}
+
+
+.main-text{
+  color:#006238;
+  font-size: 2rem;
+  position: relative;
+  top:-7px;
+  margin-left:10px;
+}
+
+.camera{
+  float:right;
+  margin-right: 100px;
+  margin-top: 8px;
+}
+
+.header{
+  height: 60px;
+  border-bottom: 1px solid rgb(54, 53, 53);
+  margin-bottom: 30px;
+}
+
+.options{
+  position: relative;
+  top: 6px;
+}
+
+.main-container{
+  width:80%;
+  height:500px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  margin-top:50px;
+  border: 1px solid #ddd;
+}
+.img-landing{
+  width:300px;
+  height:400px;
+  margin-top: 50px;
+  margin-left: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.side-container{
+  text-align: center;
+  margin-left: 100px;
+  margin-top:20%; 
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  border-radius: 5px;
+  width:50px;
 }
+
