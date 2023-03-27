@@ -29,7 +29,7 @@ export default function PostForm() {
             const imageUrl = res.data.secure_url;
             console.log(imageUrl);
 
-            const url = "http://localhost:8080/api/image"
+            const url = "https://instaclone-api-sh3c.onrender.com/api/image"
 
             await axios.post(url, {
                 name: name,
