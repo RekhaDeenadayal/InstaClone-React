@@ -7,7 +7,7 @@ export default function PostServices(props) {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get("https://instaclone-api-sh3c.onrender.com/api/image")
+        axios.get("http://localhost:8080/api/image")
             .then(res => {
                 console.log(res.data);
                 setData(res.data.data);

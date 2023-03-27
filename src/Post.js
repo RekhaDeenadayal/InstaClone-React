@@ -9,7 +9,7 @@ export default function Post({item}) {
         <span className='bold'>{item.name}</span>
         <span className='right bold options'>...</span>
         <p className='text'>{item.location}</p>
-        <img src={`https://instaclone-api-sh3c.onrender.com/${item?.postImage}`} height="180px" width="300px" />
+        <img src={item.postImage} height="180px" width="300px" />
         <img className='left' src={love} height="20px" width="20px" />
         <img className='left' src={send} height="20px" width="20px" />
         <span className='right'>{`${d.getDate()} ${d.toLocaleString('default', { month: 'short' })} ${d.getFullYear()}` }</span>
